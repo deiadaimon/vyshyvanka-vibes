@@ -1,0 +1,67 @@
+:root {
+  --black-pearl: #1c2225;
+  --snow: #fcf9f9;
+  --flax: #ecd979;
+}
+
+/* ============ RESET STYLES ============ */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--snow);
+  background-color: var(--black-pearl);
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+button {
+  padding: 0;
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* ============ COMMON STYLES ============ */
+
+/* ============ HEADER STYLES ============ */
+
+/* ============ HERO STYLES ============ */
+
+/* ============ ABOUT STYLES ============ */
+
+/* ============ COLLECTION STYLES ============ */
+
+/* ============ ORDER STYLES ============ */
+
+/* ============ TESTIMONIALS STYLES ============ */
+
+/* ============ FOOTER STYLES ============ */
+
+/* ============ MOBILE MENU STYLES ============ */
