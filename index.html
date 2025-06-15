@@ -126,7 +126,59 @@
 
     <main>
       <!-- ============ HERO SECTION ============ -->
-      <section class="hero"></section>
+      <section class="hero section">
+        <div class="container">
+          <div class="title-wrapper">
+            <h1 class="hero-title">
+              Reviving the traditional
+              <span class="yellow">Ukrainian</span> artistry in every stitch.
+            </h1>
+            <div class="brand">
+              <svg class="brand-image" width="49" height="49">
+                <use href="./images/star.svg"></use>
+              </svg>
+              <p class="brand-text">all embroidery is made by hand</p>
+            </div>
+            <a class="order-link" href="./index.html#customer-order"
+              >Order
+              <svg class="arrow-icon" width="24" height="16">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="image-wrapper">
+            <picture>
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./images/hero-desktop.png    1x,
+                  ./images/hero-desktop@2x.png 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/hero-tablet.png    1x,
+                  ./images/hero-tablet@2x.png 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  ./images/hero-mobile.png    1x,
+                  ./images/hero-mobile@2x.png 2x
+                "
+              />
+              <img
+                src="./images/hero-desktop.png"
+                alt=""
+                width="413"
+                height="575"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
 
       <!-- ============ ABOUT SECTION ============ -->
       <section class="about"></section>
