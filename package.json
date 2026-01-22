@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/vyshyvanka-vibes/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:css": "stylelint \"**/*.css\" --fix"
   },
   "devDependencies": {
     "glob": "^11.0.0",
     "postcss": "^8.4.41",
     "postcss-sort-media-queries": "^5.2.0",
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-order": "^7.0.1",
     "vite": "^5.4.6"
   },
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
