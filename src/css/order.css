@@ -3,6 +3,7 @@
   background-image: url(../img/order-1-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: 375px;
 }
 .order .section-title {
   display: none;
@@ -51,7 +52,7 @@
 
 @media (min-resolution: 192dpi) {
   .order {
-    background-image: url(../img/order-1-mobile@2x.png);
+    background-image: url(../img/order-1-mobile@2x.jpg);
   }
 }
 
