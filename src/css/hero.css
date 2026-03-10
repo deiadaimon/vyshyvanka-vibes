@@ -34,6 +34,10 @@
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
 }
+.order-link:hover,
+.order-link:focus {
+  border-color: var(--flax);
+}
 
 @media only screen and (min-width: 768px) {
   .hero .container {
